@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button, li {
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+/* Start header */
+
+header {
+    height: 100vh;
+    background-image: url('../images/pexels-veeterzy-303383.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid
+}
+
+header .holder {
+    margin: auto;
+    text-align: center;
+}
+
+header .holder h1 {
+    color: #fff;
+    padding: 5px 0;
+}
+
+header .holder button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-color: #fff;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border-style: solid
+}
+
+/* End header */
+
+/* Start Navbar */
+
+nav {
+    background-color: #252f31;
+    color: #f9feff;
+}
+
+nav > div.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav div.brand p {
+    color: #28cf7d;
+    font-size: 25px;
+}
+
+nav div.brand p span {
+    background-color: #4a5456;
+    padding: 5px;
+    color: #f9ddde
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 20px;
+}
+nav ul li:hover {color: #28cf7d}
+
+/* End Navbar */
+
+
+
+
+/* Start value section */
+section#values {padding: 80px 0}
+section#values > div.container {
+    display: flex;
+    justify-content: space-between;
+}
+section#values > div.container div {padding: 0 20px}
+section#values > div.container div h2 {
+    color: #44504e;
+    margin-bottom: 30px
+}
+
+section#values > div.container div p {color: #afafaf;text-align: justify;}
+
+/* End value section */
+
+
+
+/* Start about section */
+
+section#about {padding: 80px 0;background-color: #f2f2f2}
+
+section#about > div.container, section#skills > div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#about > div.container > div,
+section#skills > div.container > div {width: 45%}
+
+section#about > div.container > div.paragraphs h2,
+section#skills > div.container > div.paragraphs h2 {
+    color: #44504e;
+    margin-bottom: 30px
+}
+
+section#about > div.container > div.paragraphs p,
+section#skills > div.container > div.paragraphs p {
+    color: #afafaf;
+    margin-bottom: 30px
+}
+
+section#about > div.container > div.suqare-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#about > div.container > div.suqare-grid .part {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+
+section#about > div.container > div.suqare-grid .part .icon {
+    min-width: 30%;
+    text-align: center;
+    color: #2dcc70
+}
+
+section#about > div.container > div.suqare-grid .part h3 {color: #44504e;margin-bottom: 20px;}
+section#about > div.container > div.suqare-grid .part p {color: #afafaf}
+
+/* End about section */
+
+
+
+/* Start skills section */
+
+section#skills {padding: 80px 0}
+
+section#skills > div.container > div.paragraphs button {
+    background-color: transparent;
+    color: #2dcc70;
+    border-color: #2dcc70;
+    border-radius: 3px;
+    padding: 10px 30px;
+    border-style: solid
+}
+
+section#skills > div.container > div.progresses > div {margin-bottom: 20px}
+section#skills > div.container > div.progresses h3 {color: #44504e;margin-bottom: 20px}
+section#skills > div.container > div.progresses > div > div {background-color: #f2f2f2}
+section#skills > div.container > div.progresses > div > div span {
+    display: block;
+    background-color: #2dcc70;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px
+}
+
+/* End skills section */
+
+
+
+
+/* Start resume section */
+
+section#resume {padding: 80px 0;background-color: #f2f2f2;text-align: center;}
+
+section#resume h2 {color: #44504e;margin-bottom: 30px}
+section#resume p {color: #afafaf;margin-bottom: 30px}
+section#resume button {
+    background-color: transparent;
+    color: #2dcc70;
+    border-color: #2dcc70;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border-style: solid
+}
+
+
+/* End resume section */
